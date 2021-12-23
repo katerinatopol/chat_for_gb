@@ -1,8 +1,8 @@
-from chat_for_gb.errors import IncorrectDataRecivedError, NonDictInputError
+from common.errors import IncorrectDataRecivedError, NonDictInputError
 import json
 import sys
 sys.path.append('../../')
-from chat_for_gb.decos import log
+from common.decos import log
 
 
 # Утилита приёма и декодирования сообщения

@@ -2,7 +2,7 @@ import sys
 sys.path.append('../../')
 from chat_for_gb.client import create_presence, process_response_ans
 import unittest
-from chat_for_gb.errors import ReqFieldMissingError, ServerError
+from common.errors import ReqFieldMissingError, ServerError
 
 
 # Класс с тестами
